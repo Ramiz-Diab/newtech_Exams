@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 200vh;
+  font-family: system-ui, sans-serif;
+  background: #0c1020;
+  color: #f5f5f5;
+}
+
+/* ثابت */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 220px;
+  height: 100vh;
+  background-color: #0b2d4a;
+  padding: 20px;
+}
+
+
+.main-layout {
+  margin-left: 220px;
+}
+
+
+.topbar {
+  position: fixed;
+  left: 220px;   
+  top: 0;
+  width: calc(100% - 220px);
+  background-color: #122b3f;
+  padding: 16px 24px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  z-index: 10;   
+}
+
+
+.agent-card {
+  position: relative;
+  padding: 24px;
+  margin: 200px 20px;
+  background: #9000ff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
+
+.note {
+  position: absolute;
+  right: 12px;
+  top: -12px;
+  background: #ffd45f;
+  color: #ff0000;
+  padding: 8px 14px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.note2 {
+  position: absolute;
+  left: -11px;
+  top: -12px;
+  background: #ffd45f;
+  color: #ff0000;
+  padding: 8px 14px;
+  border-radius: 100px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+.pading{
+   border-radius: 100px; 
+    background: #ff5fdf;
+    padding: 6px 12px;   
+    display: inline-block; 
+    left: 88px;
+
+}
+ 
+.sub-note{
+   border-radius: 100px; 
+    background: #0022ff;
+    padding: 6px 12px;   
+    display: inline-block; 
+    left: 88px;
+}

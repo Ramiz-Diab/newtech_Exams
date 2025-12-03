@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TechBlog homepage using basic HTML structure"
+    />
+    <title>Tech Blog</title>
+  </head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div class="wrapper">
+      <header class="header-area">
+        <a href="#" class="site-logo">TechBlog</a>
+
+        <nav class="main-menu" aria-label="Primary">
+          <button class="menu-toggle" aria-expanded="false">Menu</button>
+          <ul class="menu-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="slider" aria-label="Featured images">
+        <div class="slide">
+          <img src="slide1.jpg" alt="Close-up photo of a modern gadget" />
+        </div>
+        <div class="slide">
+          <img src="slide2.jpg" alt="Technology themed background" />
+        </div>
+      </section>
+      <main id="main-content" class="content-area">
+        <article class="post featured-post">
+          <h2 class="post-title">Latest Gadget Review</h2>
+          <div class="post-meta">
+            <span class="date">05/11/2025</span>
+            <span class="author">by Jane</span>
+          </div>
+          <p class="post-body">
+            In-depth analysis of the newest device on the market…
+          </p>
+        </article>
+        <section class="posts-grid" aria-labelledby="more-articles-heading">
+          <h2 id="more-articles-heading" class="visually-hidden">More Articles</h2>
+          <article class="post-card">
+            <h3 class="card-title">Article 1</h3>
+            <p class="card-body">Quick tips for optimizing your workflow.</p>
+          </article>
+
+          <article class="post-card">
+            <h3 class="card-title">Article 2</h3>
+            <p class="card-body">How to choose the right development tools.</p>
+          </article>
+        </section>
+      </main>
+
+      <aside class="sidebar-area" aria-label="Sidebar">
+        
+        <section class="search-box">
+          <label for="search-input" class="visually-hidden">Search</label>
+          <input id="search-input" type="text" placeholder="Search..." />
+          <button type="submit">Go</button>
+        </section>
+
+        <section class="categories">
+          <h2>Categories</h2>
+          <ul>
+            <li><a href="#">Gadgets</a></li>
+            <li><a href="#">Software</a></li>
+            <li><a href="#">Tutorials</a></li>
+          </ul>
+        </section>
+
+        <section class="ad-widget" aria-label="Advertisement">
+          <p>Advertisement Banner</p>
+        </section>
+      </aside>
+
+      <footer class="footer-area">
+
+        <section class="contact">
+          Contact us at
+          <a href="mailto:info@techblog.com">info@techblog.com</a>
+        </section>
+
+        <section class="social">
+          <span>Follow us:</span>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+        </section>
+        <section class="copyright">
+          <p>© 2025 TechBlog</p>
+        </section>
+      </footer>
+
+    </div>
+  </body>
+</html>

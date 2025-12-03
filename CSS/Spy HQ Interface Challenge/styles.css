@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #1B3C53;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.sidebar {
+    background-color: #78b9e7;
+    color: black;
+    position: fixed;
+    top: auto;
+    left: 0;
+    width: 200px;       /* عرض السايدبار */
+    height: 100vh;      /* كامل ارتفاع الصفحة */
+    padding-top: 60px;  /* حتى لا يدخل تحت الهيدر */
+     padding: 0;
+}
+
+li{
+    
+    font-size: large;
+     list-style: none;
+     border-radius: 6px; 
+    
+      margin: 10px 0;
+
+}
+
+.sidebar a {
+
+    display: block;           /* يجعل الرابط يأخذ عرض السطر */
+    text-decoration: none;    /* إزالة الخط تحت النص */
+    color: rgb(140, 0, 255);             /* لون النص */
+    background-color: #1B3C53; /* لون الزر */
+    padding: 12px 15px;       /* مساحة داخلية */
+    margin: 10px 11px;            /* مسافة بين الأزرار */
+    border-radius: 6px;       /* زوايا مستديرة */
+    font-size: 16px;
+    transition: 0.2s ease;    /* حركة ناعمة */
+}
+
+
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;   /* مهم */
+}
+
+.main{
+    
+  top: auto; 
+  left: 200px; 
+  margin:10px 20px ;
+  margin-left: 200px;
+   background-color: #ffffff;
+   padding: 10px 10px;
+}
+
+.card{
+    
+      border-radius: 6px; 
+      background-color: #e2e2e2;
+      padding: 20px 0; 
+      margin: 100px 0;
+
+}
+
+h2{
+    margin-left: 20px;
+}
+
+p{
+    margin: 10px 10px;
+    padding:10px 10px ;
+    background-color: #78b9e7;
+     border-radius: 6px; 
+}
+
+span{
+    padding-left: 20px;
+}
+
+.Pcard{
+position: absolute;
+margin-top: -130px;
+margin-left: 1168px;
+
+}
+
+.Pcard p{
+    background-color: #fbff00;
+}

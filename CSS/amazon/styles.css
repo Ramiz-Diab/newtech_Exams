@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ /* main header */ 
+.amazon-header {
+    background-color: #131921; 
+    color: white;
+    padding: 10px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 15px;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.location .hello {
+    font-size: 12px;
+}
+.location .country {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header-center {
+    display: flex;
+    flex: 1;
+}
+
+.category {
+    padding: 8px 5px;
+    border: none;
+    background: #e6e6e6;
+    font-size: 14px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    font-size: 15px;
+}
+
+.search-btn {
+    padding: 8px 15px;
+    background: #FEBD69;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-right .bold {
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+}
+
+.cart {
+    position: relative;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: #f08804;
+    color: black;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+/* secend heder */
+.amazon-subnav {
+    background-color: #004b45;   
+    padding: 10px 20px;
+    color: white;
+}
+
+.amazon-subnav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.amazon-subnav li {
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.amazon-subnav li:hover {
+    text-decoration: underline;
+}
+
+.menu-icon {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+/* lokeshon */
+.breadcrumb {
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #555;
+}
+
+.breadcrumb a {
+    color: #000000; /* لون الروابط مثل أمازون */
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+    color: #555;
+}
+
+
+/* box*/
+.product-page {
+    display: flex;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.gallery {
+    background-color: #ffffff;
+    flex: 2; 
+   
+}
+
+.details {
+    background-color: #ffffff;
+    flex: 3;
+     padding: 10px; 
+}
+
+.buy-box {
+    background-color: #d37d04;
+    flex: 1; 
+     
+}
+
+.profile-img{
+width: 400px;
+
+}
+hr{
+    margin: 10px 0;
+}
+
+
+.colors {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: auto;
+   margin-bottom: 16px;
+
+}
+
+.color-item {
+  width: 80px;
+  border: 2px solid #ddd;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.color-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.color-item:hover {
+  border-color: #999;
+}
+
+.color-item.selected {
+  border-color: #0073e6; 
+  margin-top: 5px;
+}
+
+.price {
+    margin-bottom: 15px;
+}
+
+.price {
+  display: block;
+  margin-bottom: 15px;
+}
+
+
+.product-specs {
+    display: grid;
+    grid-template-columns: 180px auto; /* يسار ثابت - يمين يتمدد */
+    row-gap: 10px;
+    column-gap: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.spec-name {
+    font-weight: bold;
+}
+
+.spec-value {
+    color: #111;
+}
+
+.Report{
+    margin-left: -15px;
+    margin-top: 5px;
+}

@@ -1,0 +1,96 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0f15;
+    color: #e2e2e2;
+    line-height: 1.7;
+}
+
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #161922;
+    padding: 30px 20px;
+    border-bottom: 1px solid #333;
+    z-index: 999;
+}
+
+.profile-img {
+    width: 170px;
+    border-radius: 12px;
+}
+
+.header-text {
+    margin-left: 25px;
+}
+
+.name {
+    margin: 0;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.title {
+    margin: 5px 0 0;
+    color: #9bb2ff;
+}
+
+/* NAVIGATION */
+.nav {
+    position: sticky;
+    top: 170px;
+    background: #161922;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #31313a;
+    z-index: 90;
+}
+
+.nav a {
+    color: #8ea2ff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #ffffff;
+}
+
+/* MAIN SECTIONS */
+.section {
+    padding: 35px 45px;
+    margin-top: 45px;
+}
+
+/* TITLES */
+.section-title {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #c8d2ff;
+}
+
+/* LIST WITHOUT BULLETS */
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list li {
+    padding: 4px 0;
+}
+
+/* LINKS */
+a {
+    color: #89a2ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}

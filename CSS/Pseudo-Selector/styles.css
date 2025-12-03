@@ -1,0 +1,52 @@
+body{margin: 0 30px;}
+ul {
+    list-style: none;
+    padding: 0;
+    
+    font-size: large;
+}
+
+li{
+    margin: 5px 0;
+    padding: 10px 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+
+li:hover {
+  color: rgb(255, 46, 46);           
+  text-decoration: underline; 
+  background-color: rgb(190, 249, 229);
+
+}
+
+.codename-section{
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px; 
+    font-size: large;
+    font-weight: bold;
+}
+
+input{
+    box-sizing: border-box;
+     width: 100%;
+     font-size: large;
+     
+}
+input:hover {
+   
+    border: 2px solid rgb(255, 46, 46); 
+    outline: none;
+
+}
+
+p{
+  margin: 30px 0;
+  font-size: large;
+font-weight: bold;
+}
