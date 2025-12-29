@@ -18,9 +18,9 @@ header{
     position: fixed;
     top: auto;
     left: 0;
-    width: 200px;       /* عرض السايدبار */
-    height: 100vh;      /* كامل ارتفاع الصفحة */
-    padding-top: 60px;  /* حتى لا يدخل تحت الهيدر */
+    width: 200px;       
+    height: 100vh;      
+    padding-top: 60px;  
      padding: 0;
 }
 
@@ -36,15 +36,15 @@ li{
 
 .sidebar a {
 
-    display: block;           /* يجعل الرابط يأخذ عرض السطر */
-    text-decoration: none;    /* إزالة الخط تحت النص */
-    color: rgb(140, 0, 255);             /* لون النص */
-    background-color: #1B3C53; /* لون الزر */
-    padding: 12px 15px;       /* مساحة داخلية */
-    margin: 10px 11px;            /* مسافة بين الأزرار */
-    border-radius: 6px;       /* زوايا مستديرة */
+    display: block;           
+    text-decoration: none;    
+    color: rgb(140, 0, 255);             
+    background-color: #1B3C53; 
+    padding: 12px 15px;       
+    margin: 10px 11px;           
+    border-radius: 6px;       
     font-size: 16px;
-    transition: 0.2s ease;    /* حركة ناعمة */
+    transition: 0.2s ease;    
 }
 
 
@@ -52,7 +52,7 @@ li{
 .sidebar ul {
     list-style: none;
     margin: 0;
-    padding: 0;   /* مهم */
+    padding: 0;   
 }
 
 .main{
